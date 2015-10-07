@@ -4,6 +4,8 @@ export ZSH=/home/paul/.oh-my-zsh
 export VISUAL="vim"
 export EDITOR="$VISUAL"
 
+sudo loadkeys ~/.vimkeys
+
 ZLE_RPROMPT_INDENT=0
 TERM=xterm-256color
 # Set name of the theme to load.
